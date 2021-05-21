@@ -84,7 +84,7 @@ namespace RetinaServer
                     // no data received
                     if (_byteLength <= 0)
                     {
-                        // TODO: disconnect
+                        Server.clients[ID].Disconnect();
                         return;
                     }
 
@@ -103,7 +103,7 @@ namespace RetinaServer
                 catch (Exception ex)
                 {
                     Console.WriteLine($"Error Receiving TCP Data: {ex.Message}");
-                    //TODO: disconnect client
+                    Server.clients[ID].Disconnect();
                 }
             }
 
@@ -200,6 +200,16 @@ namespace RetinaServer
                 // otherwise, do not reset - because there is still a partial packet left - we need to wait for the next stream to finish unpacking it
                 return false;
             }
+
+
+            public void Disconnect()
+            {
+                socket.Close();
+                stream = null;
+                receivedData = null;
+                receiveBuffer = null;
+                socket = null;
+            }
         }
 
         public class UDP
@@ -244,6 +254,22 @@ namespace RetinaServer
                 });
 
             }
+
+
+            public void Disconnect()
+            {
+                endPoint = null;
+            }
+        }
+
+
+        private void Disconnect()
+        {
+            Console.WriteLine($"{tcp.socket.Client.RemoteEndPoint} has disconnected.");
+
+            //player = null;
+            tcp.Disconnect();
+            udp.Disconnect();
         }
     }
 }

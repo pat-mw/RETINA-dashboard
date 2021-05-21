@@ -21,6 +21,8 @@ namespace RetinaNetworking
         public TCP tcp;
         public UDP udp;
 
+        private bool isConnected = false;
+
         // packet handling + dictionary for storing packet handlers
         private delegate void PacketHandler(Packet _packet);
         private static Dictionary<int, PacketHandler> packetHandlers;
@@ -44,9 +46,15 @@ namespace RetinaNetworking
             udp = new UDP();
         }
 
+        private void OnApplicationQuit()
+        {
+            Disconnect();
+        }
+
         public void ConnectToServer()
         {
             InitialiseClientData();
+            isConnected = true;
             tcp.Connect();
         }
 
@@ -89,7 +97,6 @@ namespace RetinaNetworking
                 stream.BeginRead(receiveBuffer, 0, dataBufferSize, ReceiveCallback, null);
             }
 
-
             public void SendData(Packet _packet)
             {
                 try
@@ -115,7 +122,7 @@ namespace RetinaNetworking
                     // no data received
                     if (_byteLength <= 0)
                     {
-                        // TODO: disconnect
+                        Instance.Disconnect();
                         return;
                     }
 
@@ -134,7 +141,7 @@ namespace RetinaNetworking
                 catch (Exception ex)
                 {
                     Console.WriteLine($"Error Receiving TCP Data: {ex.Message}");
-                    //TODO: disconnect client
+                    Disconnect();
                 }
             }
 
@@ -230,6 +237,15 @@ namespace RetinaNetworking
                 // otherwise, do not reset - because there is still a partial packet left - we need to wait for the next stream to finish unpacking it
                 return false;
             }
+
+            private void Disconnect()
+            {
+                Instance.Disconnect();
+                stream = null;
+                receivedData = null;
+                receiveBuffer = null;
+                socket = null;
+            }
         }
 
         public class UDP
@@ -284,7 +300,7 @@ namespace RetinaNetworking
 
                     if (_data.Length < 4)
                     {
-                        // TODO: disconnect
+                        Instance.Disconnect();
                         return;
                     }
 
@@ -292,10 +308,9 @@ namespace RetinaNetworking
                 }
                 catch (Exception ex)
                 {
-                    Debug.Log($"Error on Receive Callback: {ex.Message} - disconnecting");
-                    //TODO: disconnect
+                    //Debug.Log($"UDP Socket has been closed - Disconnecting");
+                    Disconnect();
                 }
-                
             }
 
             private void HandleData(byte[] _data)
@@ -317,6 +332,14 @@ namespace RetinaNetworking
                     }
                 });
             }
+
+            private void Disconnect()
+            {
+                Instance.Disconnect();
+
+                endPoint = null;
+                socket = null;
+            }
         }
 
 
@@ -329,6 +352,20 @@ namespace RetinaNetworking
             };
 
             Debug.Log("Initialised Packets!");
+        }
+
+
+        private void Disconnect()
+        {
+            if (isConnected)
+            {
+                isConnected = false;
+
+                udp.socket.Close();
+                tcp.socket.Close();
+
+                Debug.Log("Disconnected from the server.");
+            }
         }
     }
 
