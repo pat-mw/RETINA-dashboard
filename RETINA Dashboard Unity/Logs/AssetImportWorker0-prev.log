@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.2f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/pmass/Documents/Unity/# RESOURCES/Seb Lague/RETINA dashboard
+C:/Users/pmass/Documents/Unity/RETINA dashboard/RETINA Dashboard Unity
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51311
-Successfully changed project path to: C:/Users/pmass/Documents/Unity/# RESOURCES/Seb Lague/RETINA dashboard
-C:/Users/pmass/Documents/Unity/# RESOURCES/Seb Lague/RETINA dashboard
+52333
+Successfully changed project path to: C:/Users/pmass/Documents/Unity/RETINA dashboard/RETINA Dashboard Unity
+C:/Users/pmass/Documents/Unity/RETINA dashboard/RETINA Dashboard Unity
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 38.08 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 42.92 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/pmass/Documents/Unity/# RESOURCES/Seb Lague/RETINA dashboard/Assets
+[Subsystems] Discovering subsystems at path C:/Users/pmass/Documents/Unity/RETINA dashboard/RETINA Dashboard Unity/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,353 +35,240 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001780 seconds.
+Registered in 0.001832 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 37.59 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 38.31 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.551 seconds
+- Completed reload, in  1.524 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004440 seconds.
+Registered in 0.004431 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 37.96 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 38.90 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.148 seconds
+- Completed reload, in  1.100 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2636 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 119.4 MB.
 System memory in use after: 116.6 MB.
 
 Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 3090.
-Total: 17.334500 ms (FindLiveObjects: 0.311800 ms CreateObjectMapping: 0.193700 ms MarkObjects: 15.067900 ms  DeleteObjects: 1.759700 ms)
+Total: 17.298400 ms (FindLiveObjects: 0.283100 ms CreateObjectMapping: 0.459100 ms MarkObjects: 15.186500 ms  DeleteObjects: 1.368500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/RETINA Dashboard/Networking/UDP
-  artifactKey: Guid(79588201e3c720148bd969203d45bda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking/UDP using Guid(79588201e3c720148bd969203d45bda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42548c17929d00c2d173b4ab5efc8cbd') in 0.009354 seconds
-  Import took 0.014013 seconds .
+  path: Assets/RETINA-Dashboard/Networking/Attempt2/Scenes/Client.unity
+  artifactKey: Guid(379a6836b75b3ab4e859d166ca7f4c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RETINA-Dashboard/Networking/Attempt2/Scenes/Client.unity using Guid(379a6836b75b3ab4e859d166ca7f4c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b6e214cd9e432c3d7cb77809d6398d') in 0.015441 seconds
+  Import took 0.019448 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/RETINA Dashboard/Networking/UDPSend.cs
-  artifactKey: Guid(36f0b2aa7711e5f4597589f517e5b463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking/UDPSend.cs using Guid(36f0b2aa7711e5f4597589f517e5b463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a902a7e472c139ce52e6c3aa65f3a7a') in 0.020849 seconds
-  Import took 0.024901 seconds .
+  Time since last request: 41.341440 seconds.
+  path: Assets/RETINA-Dashboard/Networking/Attempt2/Client.cs
+  artifactKey: Guid(ffab2602b63fd8847ac6e4042be0fa33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RETINA-Dashboard/Networking/Attempt2/Client.cs using Guid(ffab2602b63fd8847ac6e4042be0fa33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e81cfb1a46add3aaee582717483f98d4') in 0.022336 seconds
+  Import took 0.028209 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004179 seconds.
+Registered in 0.005109 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.064 seconds
+- Completed reload, in  1.071 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2562 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 115.9 MB.
-System memory in use after: 113.2 MB.
-
-Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3093.
-Total: 25.345200 ms (FindLiveObjects: 0.462400 ms CreateObjectMapping: 0.319500 ms MarkObjects: 23.163200 ms  DeleteObjects: 1.397900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.012318 seconds.
-  path: Assets/RETINA Dashboard/Scenes/NetworkingTest.unity
-  artifactKey: Guid(b4149517bec0f6b41b68a10b0460126e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Scenes/NetworkingTest.unity using Guid(b4149517bec0f6b41b68a10b0460126e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b3c18cfd483b4c25831647e3e47423') in 0.019176 seconds
-  Import took 0.023476 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.877816 seconds.
-  path: Assets/RETINA Dashboard/Scenes/UDPTest.unity
-  artifactKey: Guid(b4149517bec0f6b41b68a10b0460126e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Scenes/UDPTest.unity using Guid(b4149517bec0f6b41b68a10b0460126e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b309d91ca441f83f39df26a3d0fdb1') in 0.006457 seconds
-  Import took 0.011238 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.033752 seconds.
-  path: Assets/RETINA Dashboard/Scenes 1
-  artifactKey: Guid(301f49a94eaea5744943425c11d30721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Scenes 1 using Guid(301f49a94eaea5744943425c11d30721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab92963e7907a78757b2029b7d9eb6ee') in 0.006507 seconds
-  Import took 0.011362 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.160757 seconds.
-  path: Assets/RETINA Dashboard/Scenes/UDPTest 1.unity
-  artifactKey: Guid(f73fd330132d2cf4aa57c6d7da1cd97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Scenes/UDPTest 1.unity using Guid(f73fd330132d2cf4aa57c6d7da1cd97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a6913f335c4c0a4482e09f2f4e9026') in 0.007047 seconds
-  Import took 0.011139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.947147 seconds.
-  path: Assets/RETINA Dashboard/Scenes/TCPTest.unity
-  artifactKey: Guid(f73fd330132d2cf4aa57c6d7da1cd97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Scenes/TCPTest.unity using Guid(f73fd330132d2cf4aa57c6d7da1cd97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2acfb1425f0690e7773bec35a6a06e4') in 0.007758 seconds
-  Import took 0.014260 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.285840 seconds.
-  path: Assets/RETINA Dashboard/Networking/DataDisplay.cs
-  artifactKey: Guid(6b7b92b01d65a5347b448a11fef728dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking/DataDisplay.cs using Guid(6b7b92b01d65a5347b448a11fef728dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e1332fb6d89ad94b271fa84015df68') in 0.009980 seconds
-  Import took 0.014116 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/RETINA Dashboard/Networking/DataDisplay.cs
-  artifactKey: Guid(6b7b92b01d65a5347b448a11fef728dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking/DataDisplay.cs using Guid(6b7b92b01d65a5347b448a11fef728dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4e1332fb6d89ad94b271fa84015df68') in 0.002190 seconds
-  Import took 0.006450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.555061 seconds.
-  path: Assets/RETINA Dashboard/Networking/DataHandler.cs
-  artifactKey: Guid(fc258e7f7a551b843ac334b753742a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking/DataHandler.cs using Guid(fc258e7f7a551b843ac334b753742a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d92ab21a972aca23cf24f4d6102a4f4') in 0.003095 seconds
-  Import took 0.009897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000823 seconds.
-  path: Assets/RETINA Dashboard/Networking/DataHandler.cs
-  artifactKey: Guid(fc258e7f7a551b843ac334b753742a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking/DataHandler.cs using Guid(fc258e7f7a551b843ac334b753742a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d92ab21a972aca23cf24f4d6102a4f4') in 0.002750 seconds
-  Import took 0.006527 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.667904 seconds.
-  path: Assets/RETINA Dashboard/Networking/ArchivedScripts
-  artifactKey: Guid(dbbca428ab40f794398fec9b3b0cefa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking/ArchivedScripts using Guid(dbbca428ab40f794398fec9b3b0cefa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2167cc9609e28334e5829387ec1bdc6b') in 0.007000 seconds
-  Import took 0.011487 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004409 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.083 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2562 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 115.9 MB.
-System memory in use after: 113.2 MB.
-
-Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3096.
-Total: 16.723200 ms (FindLiveObjects: 0.306500 ms CreateObjectMapping: 0.132400 ms MarkObjects: 14.814500 ms  DeleteObjects: 1.468600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004640 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.073 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2562 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.1 MB.
-System memory in use after: 113.3 MB.
-
-Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3099.
-Total: 21.220200 ms (FindLiveObjects: 0.306200 ms CreateObjectMapping: 0.196100 ms MarkObjects: 18.488700 ms  DeleteObjects: 2.226900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.674968 seconds.
-  path: Assets/RETINA Dashboard/Networking/TCP
-  artifactKey: Guid(c0996b9fefdebb5489fd02ddd409549a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking/TCP using Guid(c0996b9fefdebb5489fd02ddd409549a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d82a56df9d43be3770576ecee0961b') in 0.010938 seconds
-  Import took 0.015484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000566 seconds.
-  path: Assets/RETINA Dashboard/Networking/TCP
-  artifactKey: Guid(c0996b9fefdebb5489fd02ddd409549a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking/TCP using Guid(c0996b9fefdebb5489fd02ddd409549a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66d82a56df9d43be3770576ecee0961b') in 0.002017 seconds
-  Import took 0.005509 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.092020 seconds.
-  path: Assets/RETINA Dashboard/Networking/TCP/TCPSend.cs
-  artifactKey: Guid(25d15a21b7f97b84392b220acb01ddeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking/TCP/TCPSend.cs using Guid(25d15a21b7f97b84392b220acb01ddeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed5d659ad53dee2324a942a50f55cef') in 0.005895 seconds
-  Import took 0.010409 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005300 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.096 seconds
-Platform modules already initialized, skipping
-Script is not up to date after domain reload: guid(ae291ab615af2da428d066fd033f361f) path("Assets/RETINA Dashboard/Networking/TCP/TCPSend1.cs") state(2)
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2563 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.2 MB.
-System memory in use after: 113.4 MB.
+System memory in use before: 116.0 MB.
+System memory in use after: 113.3 MB.
 
-Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3103.
-Total: 17.943500 ms (FindLiveObjects: 0.273300 ms CreateObjectMapping: 0.118100 ms MarkObjects: 16.177700 ms  DeleteObjects: 1.373000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.784462 seconds.
-  path: Assets/RETINA Dashboard/Networking/TCP/TCPSend2.cs
-  artifactKey: Guid(96a90769a4df58f4d82d29ed532c83ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking/TCP/TCPSend2.cs using Guid(96a90769a4df58f4d82d29ed532c83ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61aa6c6b3baecd644fbc9bb79277a029') in 0.012509 seconds
-  Import took 0.016367 seconds .
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3094.
+Total: 17.622900 ms (FindLiveObjects: 0.782200 ms CreateObjectMapping: 0.473700 ms MarkObjects: 15.047200 ms  DeleteObjects: 1.317200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.082705 seconds.
-  path: Assets/RETINA Dashboard/Networking/TCP/TCPSend1.cs
-  artifactKey: Guid(ae291ab615af2da428d066fd033f361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking/TCP/TCPSend1.cs using Guid(ae291ab615af2da428d066fd033f361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0221360eee6933d344ddb33e93f42dff') in 0.007320 seconds
-  Import took 0.012712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.802856 seconds.
-  path: Assets/RETINA Dashboard/Networking/TCP/TCPReceive.cs
-  artifactKey: Guid(ae291ab615af2da428d066fd033f361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking/TCP/TCPReceive.cs using Guid(ae291ab615af2da428d066fd033f361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b9e770fa563d487842b338175f0bb0') in 0.006596 seconds
-  Import took 0.012345 seconds .
+  Time since last request: 8.280297 seconds.
+  path: Assets/RETINA-Dashboard/Networking/Attempt2/UIManager.cs
+  artifactKey: Guid(ef0a534d8b80c474b8fdd40dd402d028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RETINA-Dashboard/Networking/Attempt2/UIManager.cs using Guid(ef0a534d8b80c474b8fdd40dd402d028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1415f822640a04a1bc35d7a6b3a9d18d') in 0.009631 seconds
+  Import took 0.015170 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005513 seconds.
+Registered in 0.004343 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.108 seconds
+- Completed reload, in  1.060 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.1 MB.
+System memory in use after: 113.4 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3098.
+Total: 16.269200 ms (FindLiveObjects: 0.236000 ms CreateObjectMapping: 0.114700 ms MarkObjects: 14.646600 ms  DeleteObjects: 1.270600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004075 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.068 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2564 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.2 MB.
+System memory in use before: 116.1 MB.
 System memory in use after: 113.4 MB.
 
-Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3107.
-Total: 16.604200 ms (FindLiveObjects: 0.305400 ms CreateObjectMapping: 0.126600 ms MarkObjects: 14.601500 ms  DeleteObjects: 1.569300 ms)
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3101.
+Total: 16.778400 ms (FindLiveObjects: 0.279400 ms CreateObjectMapping: 0.139500 ms MarkObjects: 14.769700 ms  DeleteObjects: 1.588700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 161.034064 seconds.
-  path: Assets/RETINA Dashboard/Networking/TCP/TCPReceive.cs
-  artifactKey: Guid(ae291ab615af2da428d066fd033f361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking/TCP/TCPReceive.cs using Guid(ae291ab615af2da428d066fd033f361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9d0d2f5b3b2922b70915fbfaa38c6a') in 0.005073 seconds
-  Import took 0.008645 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.356828 seconds.
-  path: Assets/RETINA Dashboard/Networking/TCP/TCPclient.cs
-  artifactKey: Guid(ae291ab615af2da428d066fd033f361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking/TCP/TCPclient.cs using Guid(ae291ab615af2da428d066fd033f361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5c041442405a0d0f08366d7be72acc') in 0.006632 seconds
-  Import took 0.011401 seconds .
+  Time since last request: 704.139760 seconds.
+  path: Assets/RETINA-Dashboard/Networking/Attempt2/Client.cs
+  artifactKey: Guid(ffab2602b63fd8847ac6e4042be0fa33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RETINA-Dashboard/Networking/Attempt2/Client.cs using Guid(ffab2602b63fd8847ac6e4042be0fa33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959284ed35341d5d04cc0af4d66b5eb2') in 0.005276 seconds
+  Import took 0.009467 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005835 seconds.
+Registered in 0.005583 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.091 seconds
+- Completed reload, in  1.177 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.1 MB.
+System memory in use after: 113.4 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3104.
+Total: 19.496600 ms (FindLiveObjects: 0.453700 ms CreateObjectMapping: 0.176200 ms MarkObjects: 17.406100 ms  DeleteObjects: 1.458400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.072167 seconds.
+  path: Assets/RETINA-Dashboard/Networking/Attempt2/Client.cs
+  artifactKey: Guid(ffab2602b63fd8847ac6e4042be0fa33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RETINA-Dashboard/Networking/Attempt2/Client.cs using Guid(ffab2602b63fd8847ac6e4042be0fa33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec62914a4d3eb7217eed6ce77a45b88e') in 0.006090 seconds
+  Import took 0.012306 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004059 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.072 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2564 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.2 MB.
+System memory in use after: 113.4 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3107.
+Total: 18.232200 ms (FindLiveObjects: 0.412500 ms CreateObjectMapping: 0.279200 ms MarkObjects: 16.127900 ms  DeleteObjects: 1.411200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.364258 seconds.
+  path: Assets/RETINA-Dashboard/Networking/Attempt2/UIManager.cs
+  artifactKey: Guid(ef0a534d8b80c474b8fdd40dd402d028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RETINA-Dashboard/Networking/Attempt2/UIManager.cs using Guid(ef0a534d8b80c474b8fdd40dd402d028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f388c2aea43d66568589bce25243b835') in 0.005821 seconds
+  Import took 0.009345 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004220 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.051 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
@@ -392,486 +279,122 @@ System memory in use before: 116.2 MB.
 System memory in use after: 113.4 MB.
 
 Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3110.
-Total: 17.869900 ms (FindLiveObjects: 0.514700 ms CreateObjectMapping: 0.261500 ms MarkObjects: 15.720400 ms  DeleteObjects: 1.371600 ms)
+Total: 19.156100 ms (FindLiveObjects: 0.579800 ms CreateObjectMapping: 0.253100 ms MarkObjects: 16.650400 ms  DeleteObjects: 1.670800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.324961 seconds.
-  path: Assets/RETINA Dashboard/Networking/TCP/TCPServer.cs
-  artifactKey: Guid(25d15a21b7f97b84392b220acb01ddeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking/TCP/TCPServer.cs using Guid(25d15a21b7f97b84392b220acb01ddeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96085d9a2c6692fb6d8dfd8c1ff8b8cb') in 0.011177 seconds
-  Import took 0.017889 seconds .
+  Time since last request: 166.391591 seconds.
+  path: Assets/RETINA-Dashboard/Networking/Attempt2/UIManager.cs
+  artifactKey: Guid(ef0a534d8b80c474b8fdd40dd402d028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RETINA-Dashboard/Networking/Attempt2/UIManager.cs using Guid(ef0a534d8b80c474b8fdd40dd402d028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0e5ebb5b658cf0a4cbb6eecf4f6f01') in 0.005261 seconds
+  Import took 0.009193 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004083 seconds.
+Registered in 0.004391 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.112 seconds
+- Completed reload, in  1.069 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2564 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 116.2 MB.
 System memory in use after: 113.4 MB.
 
 Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3113.
-Total: 19.986200 ms (FindLiveObjects: 0.628000 ms CreateObjectMapping: 0.509000 ms MarkObjects: 17.394600 ms  DeleteObjects: 1.453400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.704007 seconds.
-  path: Assets/RETINA Dashboard/Networking/TCP/TCPClient.cs
-  artifactKey: Guid(ae291ab615af2da428d066fd033f361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking/TCP/TCPClient.cs using Guid(ae291ab615af2da428d066fd033f361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51cda9c57a3906111f2813b25eb5b5d6') in 0.010121 seconds
-  Import took 0.014740 seconds .
+Total: 19.049600 ms (FindLiveObjects: 0.530800 ms CreateObjectMapping: 0.219800 ms MarkObjects: 16.810900 ms  DeleteObjects: 1.486700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004239 seconds.
+Registered in 0.004360 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.159 seconds
+- Completed reload, in  1.179 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2564 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2565 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 116.2 MB.
 System memory in use after: 113.5 MB.
 
-Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3116.
-Total: 17.870000 ms (FindLiveObjects: 0.476500 ms CreateObjectMapping: 0.266900 ms MarkObjects: 14.970000 ms  DeleteObjects: 2.155400 ms)
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3117.
+Total: 21.934200 ms (FindLiveObjects: 0.789600 ms CreateObjectMapping: 0.363100 ms MarkObjects: 19.410800 ms  DeleteObjects: 1.349700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2072.152309 seconds.
+  path: Assets/RETINA-Dashboard/Networking/Attempt2/ClientHandle.cs
+  artifactKey: Guid(a1d76941b385e27469d8210aa6549ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RETINA-Dashboard/Networking/Attempt2/ClientHandle.cs using Guid(a1d76941b385e27469d8210aa6549ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4335ba6c7582714b3a96ee110e103eaf') in 0.011402 seconds
+  Import took 0.017887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.533519 seconds.
+  path: Assets/RETINA-Dashboard/Networking/Attempt2/Packet.cs
+  artifactKey: Guid(f1ab66cc9dcbf3948870abfa7e993f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RETINA-Dashboard/Networking/Attempt2/Packet.cs using Guid(f1ab66cc9dcbf3948870abfa7e993f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec1dec304329e8e827366799050d576') in 0.008384 seconds
+  Import took 0.013415 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004053 seconds.
+Registered in 0.004241 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.071 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2564 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.2 MB.
-System memory in use after: 113.5 MB.
-
-Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3119.
-Total: 17.666600 ms (FindLiveObjects: 0.264700 ms CreateObjectMapping: 0.102300 ms MarkObjects: 15.754800 ms  DeleteObjects: 1.543200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 252.793811 seconds.
-  path: Assets/RETINA Dashboard/Networking/TCP/TCPServer.cs
-  artifactKey: Guid(25d15a21b7f97b84392b220acb01ddeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking/TCP/TCPServer.cs using Guid(25d15a21b7f97b84392b220acb01ddeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97aede83a2e038a79e853ce7a051fe11') in 0.005412 seconds
-  Import took 0.010885 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004211 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.089 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2563 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.2 MB.
-System memory in use after: 113.4 MB.
-
-Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 3121.
-Total: 20.264600 ms (FindLiveObjects: 0.605300 ms CreateObjectMapping: 0.292500 ms MarkObjects: 17.781300 ms  DeleteObjects: 1.583700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.466764 seconds.
-  path: Assets/RETINA Dashboard/Networking/TCP/TCPServer.cs
-  artifactKey: Guid(25d15a21b7f97b84392b220acb01ddeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking/TCP/TCPServer.cs using Guid(25d15a21b7f97b84392b220acb01ddeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a43b525f7047396f8b6b1362fb69fa') in 0.005189 seconds
-  Import took 0.011260 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006766 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.070 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2562 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.1 MB.
-System memory in use after: 113.4 MB.
-
-Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 3123.
-Total: 18.153400 ms (FindLiveObjects: 0.256500 ms CreateObjectMapping: 0.115500 ms MarkObjects: 16.423900 ms  DeleteObjects: 1.356200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003916 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.067 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2562 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.2 MB.
-System memory in use after: 113.4 MB.
-
-Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3126.
-Total: 18.942800 ms (FindLiveObjects: 0.389600 ms CreateObjectMapping: 0.165500 ms MarkObjects: 16.905400 ms  DeleteObjects: 1.480800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.382015 seconds.
-  path: Assets/RETINA Dashboard/NetworkingAttempt1/Scenes/TCPTest.unity
-  artifactKey: Guid(f73fd330132d2cf4aa57c6d7da1cd97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/NetworkingAttempt1/Scenes/TCPTest.unity using Guid(f73fd330132d2cf4aa57c6d7da1cd97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae5c5d9756ced3c4b3da34c7aa088bc') in 0.011200 seconds
-  Import took 0.015167 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.473279 seconds.
-  path: Assets/RETINA Dashboard/NetworkingAttempt1/Scenes/UDPTest 1.unity
-  artifactKey: Guid(ea2986e57267d4e4cb2d9b27774fc9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/NetworkingAttempt1/Scenes/UDPTest 1.unity using Guid(ea2986e57267d4e4cb2d9b27774fc9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46da4397ea6c424bee152a249e7ada7') in 0.006879 seconds
-  Import took 0.011075 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.073850 seconds.
-  path: Assets/RETINA Dashboard/NetworkingAttempt1/Scenes/TutScene.unity
-  artifactKey: Guid(ea2986e57267d4e4cb2d9b27774fc9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/NetworkingAttempt1/Scenes/TutScene.unity using Guid(ea2986e57267d4e4cb2d9b27774fc9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aadf4a5536099dbe9c307ca2f5f0bb8c') in 0.007023 seconds
-  Import took 0.011625 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.756020 seconds.
-  path: Assets/RETINA Dashboard/NetworkingAttempt2/ArchivedScripts
-  artifactKey: Guid(cd41b213383d77546aaa8e2c2af9460b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/NetworkingAttempt2/ArchivedScripts using Guid(cd41b213383d77546aaa8e2c2af9460b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0e7adb538c208168f1d7e9f3a066b3') in 0.002397 seconds
-  Import took 0.006684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.460975 seconds.
-  path: Assets/RETINA Dashboard/NetworkingAttempt2/ExampleData
-  artifactKey: Guid(c74f82e3ff331744c9a6995582cdf343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/NetworkingAttempt2/ExampleData using Guid(c74f82e3ff331744c9a6995582cdf343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055a9c3aa9254405f496ebd9be5dc0ac') in 0.007493 seconds
-  Import took 0.013324 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.369535 seconds.
-  path: Assets/RETINA Dashboard/Networking
-  artifactKey: Guid(34b9f8df92dafa944a0b44c3e61b6e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking using Guid(34b9f8df92dafa944a0b44c3e61b6e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74fc60ed38b5b7d3dc0bdf9646d9c030') in 0.007820 seconds
-  Import took 0.012427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.592816 seconds.
-  path: Assets/RETINA Dashboard/Networking/Attempt2/ExampleData/DataEx.asset
-  artifactKey: Guid(b518e21ef369c074fb55759bd21b21b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking/Attempt2/ExampleData/DataEx.asset using Guid(b518e21ef369c074fb55759bd21b21b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5b8275c706e550fb3b9706d096893f') in 0.010630 seconds
-  Import took 0.014335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/RETINA Dashboard/Networking/Attempt2/ExampleData/PacketEx.asset
-  artifactKey: Guid(ee9e382c1ff5e2947833e8c5c3c8358b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking/Attempt2/ExampleData/PacketEx.asset using Guid(ee9e382c1ff5e2947833e8c5c3c8358b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32368c437691e62d667c13e5d910f500') in 0.007824 seconds
-  Import took 0.011258 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.883549 seconds.
-  path: Assets/RETINA Dashboard/Networking/Attempt2/Scenes/UDPTest.unity
-  artifactKey: Guid(1c394099c56607b41a243b219277ad1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking/Attempt2/Scenes/UDPTest.unity using Guid(1c394099c56607b41a243b219277ad1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc932cec2293a5c4be9b994def9a0fd') in 0.002985 seconds
-  Import took 0.007009 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001624 seconds.
-  path: Assets/RETINA Dashboard/Networking/Attempt2/Scenes/UDPTest.unity
-  artifactKey: Guid(1c394099c56607b41a243b219277ad1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking/Attempt2/Scenes/UDPTest.unity using Guid(1c394099c56607b41a243b219277ad1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc932cec2293a5c4be9b994def9a0fd') in 0.002797 seconds
-  Import took 0.006494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.709393 seconds.
-  path: Assets/RETINA Dashboard/Networking/Attempt2/Scenes/TutScene.unity
-  artifactKey: Guid(b1aa9e332fa5c284db0ba89a708ab4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking/Attempt2/Scenes/TutScene.unity using Guid(b1aa9e332fa5c284db0ba89a708ab4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1746923bd61c7d78c7f2e92a3d29846') in 0.003414 seconds
-  Import took 0.008145 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001401 seconds.
-  path: Assets/RETINA Dashboard/Networking/Attempt2/Scenes/TutScene.unity
-  artifactKey: Guid(b1aa9e332fa5c284db0ba89a708ab4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking/Attempt2/Scenes/TutScene.unity using Guid(b1aa9e332fa5c284db0ba89a708ab4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1746923bd61c7d78c7f2e92a3d29846') in 0.002149 seconds
-  Import took 0.006106 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.361978 seconds.
-  path: Assets/RETINA Dashboard/Networking/Attempt2/UDP/UDPSend.cs
-  artifactKey: Guid(7f90c9747d7b10a4198a213fb947f349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking/Attempt2/UDP/UDPSend.cs using Guid(7f90c9747d7b10a4198a213fb947f349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9574e9e05bf4c4438fe64a3b91dcf3d') in 0.002452 seconds
-  Import took 0.006500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.019165 seconds.
-  path: Assets/RETINA Dashboard/Networking/Attempt2/UDP/UDPSend.cs
-  artifactKey: Guid(7f90c9747d7b10a4198a213fb947f349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking/Attempt2/UDP/UDPSend.cs using Guid(7f90c9747d7b10a4198a213fb947f349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9574e9e05bf4c4438fe64a3b91dcf3d') in 0.002583 seconds
-  Import took 0.006853 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.430060 seconds.
-  path: Assets/RETINA Dashboard/Networking/Attempt2/UDP/UDPReceive.cs
-  artifactKey: Guid(bfb92001dc1109a459587ac2dbefd347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking/Attempt2/UDP/UDPReceive.cs using Guid(bfb92001dc1109a459587ac2dbefd347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5bd92c437558bd6131d103be0ad282') in 0.006224 seconds
-  Import took 0.011743 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.095677 seconds.
-  path: Assets/RETINA Dashboard/Networking/Attempt1
-  artifactKey: Guid(0f6693a96638aba4aba74c0bda25d3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking/Attempt1 using Guid(0f6693a96638aba4aba74c0bda25d3d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e8f5e8129f3bd6cdd901f38a87b012') in 0.009243 seconds
-  Import took 0.014034 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.363991 seconds.
-  path: Assets/RETINA Dashboard/Networking/Attempt1/ButtonSendData.cs
-  artifactKey: Guid(775e419d6b0a28444ad2a827c3300b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking/Attempt1/ButtonSendData.cs using Guid(775e419d6b0a28444ad2a827c3300b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e96ca8268f5b2d061a083fb1861c432') in 0.006424 seconds
-  Import took 0.010629 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.336503 seconds.
-  path: Assets/RETINA Dashboard/Networking/Attempt2/ButtonSendData.cs
-  artifactKey: Guid(083c09abfb58fa944a0d53b7ecf49a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA Dashboard/Networking/Attempt2/ButtonSendData.cs using Guid(083c09abfb58fa944a0d53b7ecf49a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86fd023474bb14b59078a14e066665a3') in 0.002264 seconds
-  Import took 0.006505 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004442 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.067 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2562 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.2 MB.
-System memory in use after: 113.5 MB.
-
-Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3129.
-Total: 17.241500 ms (FindLiveObjects: 0.247700 ms CreateObjectMapping: 0.112400 ms MarkObjects: 15.603400 ms  DeleteObjects: 1.276800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004184 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.005 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2562 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.3 MB.
-System memory in use after: 113.5 MB.
-
-Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3132.
-Total: 16.903200 ms (FindLiveObjects: 0.329300 ms CreateObjectMapping: 0.149600 ms MarkObjects: 14.971200 ms  DeleteObjects: 1.452100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.817477 seconds.
-  path: Assets/RETINA-Dashboard/Networking/Attempt2
-  artifactKey: Guid(cdfaddc25234d9c41a2d831d65f9a899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA-Dashboard/Networking/Attempt2 using Guid(cdfaddc25234d9c41a2d831d65f9a899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2165563872b71a7c64a8cfdaa532070b') in 0.011267 seconds
-  Import took 0.015856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3287.110782 seconds.
-  path: Assets/RETINA-Dashboard/Networking/Attempt2/Scenes
-  artifactKey: Guid(66b987ad1e433004ab163f2fd89b1fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA-Dashboard/Networking/Attempt2/Scenes using Guid(66b987ad1e433004ab163f2fd89b1fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e0578b2b0c1e430b61568bf3e6022e') in 0.009629 seconds
-  Import took 0.013762 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.537318 seconds.
-  path: Assets/RETINA-Dashboard/Networking/Attempt2/Scenes/TutScene.unity
-  artifactKey: Guid(b1aa9e332fa5c284db0ba89a708ab4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA-Dashboard/Networking/Attempt2/Scenes/TutScene.unity using Guid(b1aa9e332fa5c284db0ba89a708ab4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10728ecdcbdd49d6e7f7f55c88bb61d') in 0.008621 seconds
-  Import took 0.012489 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.470248 seconds.
-  path: Assets/RETINA-Dashboard/Networking/Attempt2/Scenes/Se.unity
-  artifactKey: Guid(b1aa9e332fa5c284db0ba89a708ab4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA-Dashboard/Networking/Attempt2/Scenes/Se.unity using Guid(b1aa9e332fa5c284db0ba89a708ab4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b9182975695e9d63e06057ca3b82fd') in 0.007012 seconds
-  Import took 0.011224 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 91.270569 seconds.
-  path: Assets/RETINA-Dashboard/Networking/Attempt2/TCP
-  artifactKey: Guid(94ae1d61d858f894daff8698548d3f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA-Dashboard/Networking/Attempt2/TCP using Guid(94ae1d61d858f894daff8698548d3f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9628f6f95d402a65b419eeaaf6022ae6') in 0.001790 seconds
-  Import took 0.006173 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001938 seconds.
-  path: Assets/RETINA-Dashboard/Networking/Attempt2/TCP
-  artifactKey: Guid(94ae1d61d858f894daff8698548d3f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA-Dashboard/Networking/Attempt2/TCP using Guid(94ae1d61d858f894daff8698548d3f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9628f6f95d402a65b419eeaaf6022ae6') in 0.002110 seconds
-  Import took 0.006201 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.332399 seconds.
-  path: Assets/RETINA-Dashboard/Networking/Attempt2/NewBehaviourScript.cs
-  artifactKey: Guid(b9e1999e7e4a0d84e80950c4d1df299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA-Dashboard/Networking/Attempt2/NewBehaviourScript.cs using Guid(b9e1999e7e4a0d84e80950c4d1df299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73abd3c32892cafd30343d909b42ebd9') in 0.006267 seconds
-  Import took 0.010279 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005919 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.999 seconds
+- Completed reload, in  1.294 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2563 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2566 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 116.3 MB.
 System memory in use after: 113.5 MB.
 
-Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3136.
-Total: 16.369700 ms (FindLiveObjects: 0.338700 ms CreateObjectMapping: 0.134100 ms MarkObjects: 14.190200 ms  DeleteObjects: 1.705400 ms)
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3121.
+Total: 18.246600 ms (FindLiveObjects: 0.348800 ms CreateObjectMapping: 0.101700 ms MarkObjects: 15.874700 ms  DeleteObjects: 1.919900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.923242 seconds.
-  path: Assets/RETINA-Dashboard/Networking/Attempt2/GameServer.cs
-  artifactKey: Guid(b9e1999e7e4a0d84e80950c4d1df299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA-Dashboard/Networking/Attempt2/GameServer.cs using Guid(b9e1999e7e4a0d84e80950c4d1df299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7939707689bbe76c4356261ad0a87c3f') in 0.011110 seconds
-  Import took 0.017293 seconds .
+  Time since last request: 14.165565 seconds.
+  path: Assets/RETINA-Dashboard/Networking/Attempt2/ThreadManager.cs
+  artifactKey: Guid(9794bdb559c54ca41af4b760d0e39650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RETINA-Dashboard/Networking/Attempt2/ThreadManager.cs using Guid(9794bdb559c54ca41af4b760d0e39650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c9e7a952f00e31e242e6e1239fee8e') in 0.011230 seconds
+  Import took 0.015887 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003803 seconds.
+Registered in 0.006411 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -881,95 +404,95 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.101 seconds
+- Completed reload, in  1.140 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2563 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2567 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 116.2 MB.
 System memory in use after: 113.5 MB.
 
-Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3139.
-Total: 22.504000 ms (FindLiveObjects: 0.460100 ms CreateObjectMapping: 0.259900 ms MarkObjects: 20.208800 ms  DeleteObjects: 1.573200 ms)
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3125.
+Total: 19.131600 ms (FindLiveObjects: 0.288600 ms CreateObjectMapping: 0.158900 ms MarkObjects: 16.936400 ms  DeleteObjects: 1.746100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004717 seconds.
+Registered in 0.004213 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.103 seconds
+- Completed reload, in  1.032 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2563 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.3 MB.
+Unloading 2567 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.2 MB.
 System memory in use after: 113.5 MB.
 
-Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3142.
-Total: 18.875900 ms (FindLiveObjects: 0.849800 ms CreateObjectMapping: 0.376500 ms MarkObjects: 15.952200 ms  DeleteObjects: 1.695900 ms)
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3128.
+Total: 16.682200 ms (FindLiveObjects: 0.423000 ms CreateObjectMapping: 0.125600 ms MarkObjects: 14.193400 ms  DeleteObjects: 1.939200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 44.705990 seconds.
-  path: Assets/RETINA-Dashboard/Networking/Attempt2/GameServer.cs
-  artifactKey: Guid(b9e1999e7e4a0d84e80950c4d1df299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA-Dashboard/Networking/Attempt2/GameServer.cs using Guid(b9e1999e7e4a0d84e80950c4d1df299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a80fc9c68e1d19a795cf41d7b69c3e') in 0.004800 seconds
-  Import took 0.008256 seconds .
+  Time since last request: 156.004177 seconds.
+  path: Assets/RETINA-Dashboard/Networking/Attempt2/ThreadManager.cs
+  artifactKey: Guid(9794bdb559c54ca41af4b760d0e39650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RETINA-Dashboard/Networking/Attempt2/ThreadManager.cs using Guid(9794bdb559c54ca41af4b760d0e39650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5052bdae6a84bfce7676b40bf519a3a1') in 0.005010 seconds
+  Import took 0.010723 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003997 seconds.
+Registered in 0.004319 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.109 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2563 Unused Serialized files (Serialized files now loaded: 0)
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.061 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2567 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 116.3 MB.
-System memory in use after: 113.5 MB.
+System memory in use after: 113.6 MB.
 
-Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3145.
-Total: 19.069600 ms (FindLiveObjects: 0.567300 ms CreateObjectMapping: 0.342000 ms MarkObjects: 16.507100 ms  DeleteObjects: 1.651700 ms)
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3131.
+Total: 19.142700 ms (FindLiveObjects: 0.961400 ms CreateObjectMapping: 0.317100 ms MarkObjects: 15.982400 ms  DeleteObjects: 1.879200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 84.685120 seconds.
-  path: Assets/RETINA-Dashboard/Networking/Attempt2/GameServer.cs
-  artifactKey: Guid(b9e1999e7e4a0d84e80950c4d1df299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RETINA-Dashboard/Networking/Attempt2/GameServer.cs using Guid(b9e1999e7e4a0d84e80950c4d1df299a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e56683de89bc972966f30b8df4ac1b3') in 0.005260 seconds
-  Import took 0.008909 seconds .
+  Time since last request: 110.738040 seconds.
+  path: Assets/RETINA-Dashboard/Networking/Attempt2/Packet.cs
+  artifactKey: Guid(f1ab66cc9dcbf3948870abfa7e993f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RETINA-Dashboard/Networking/Attempt2/Packet.cs using Guid(f1ab66cc9dcbf3948870abfa7e993f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80759b4bb551baeb850f9dd7beb91cbd') in 0.005544 seconds
+  Import took 0.009928 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004748 seconds.
+Registered in 0.004312 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -979,13 +502,235 @@ Mono: successfully reloaded assembly
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2567 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.3 MB.
+System memory in use after: 113.6 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3134.
+Total: 18.090100 ms (FindLiveObjects: 0.331800 ms CreateObjectMapping: 0.156100 ms MarkObjects: 16.009100 ms  DeleteObjects: 1.591200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.738600 seconds.
+  path: Assets/RETINA-Dashboard/Networking/Attempt2/ClientHandle.cs
+  artifactKey: Guid(a1d76941b385e27469d8210aa6549ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RETINA-Dashboard/Networking/Attempt2/ClientHandle.cs using Guid(a1d76941b385e27469d8210aa6549ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda99c8e9453881255bc1a6f2171548d') in 0.005391 seconds
+  Import took 0.009777 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004294 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.111 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2567 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.3 MB.
+System memory in use after: 113.6 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3137.
+Total: 18.736200 ms (FindLiveObjects: 0.586200 ms CreateObjectMapping: 0.352100 ms MarkObjects: 16.378200 ms  DeleteObjects: 1.418500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2643.894198 seconds.
+  path: Assets/RETINA-Dashboard/Networking/Attempt2/ClientHandle.cs
+  artifactKey: Guid(a1d76941b385e27469d8210aa6549ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RETINA-Dashboard/Networking/Attempt2/ClientHandle.cs using Guid(a1d76941b385e27469d8210aa6549ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb151987e306d5e858e770eb46d8898') in 0.005174 seconds
+  Import took 0.009796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.928092 seconds.
+  path: Assets/RETINA-Dashboard/Networking/Attempt2/ClientHandle.cs
+  artifactKey: Guid(a1d76941b385e27469d8210aa6549ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RETINA-Dashboard/Networking/Attempt2/ClientHandle.cs using Guid(a1d76941b385e27469d8210aa6549ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb151987e306d5e858e770eb46d8898') in 0.002355 seconds
+  Import took 0.006811 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004808 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.120 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2567 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.4 MB.
+System memory in use after: 113.6 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3140.
+Total: 17.220700 ms (FindLiveObjects: 0.453800 ms CreateObjectMapping: 0.189400 ms MarkObjects: 14.574800 ms  DeleteObjects: 2.001100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.290484 seconds.
+  path: Assets/RETINA-Dashboard/Networking/Attempt2/ClientSend.cs
+  artifactKey: Guid(65318b0da7eb18541910d84e49c64c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RETINA-Dashboard/Networking/Attempt2/ClientSend.cs using Guid(65318b0da7eb18541910d84e49c64c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed182f9c6a994743f31e2819463b0582') in 0.009808 seconds
+  Import took 0.014287 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004172 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.100 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2568 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.4 MB.
+System memory in use after: 113.6 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3144.
+Total: 18.940000 ms (FindLiveObjects: 0.453500 ms CreateObjectMapping: 0.248000 ms MarkObjects: 16.863500 ms  DeleteObjects: 1.373800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004231 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.123 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2568 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.4 MB.
+System memory in use after: 113.6 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3147.
+Total: 19.291100 ms (FindLiveObjects: 0.644800 ms CreateObjectMapping: 0.243400 ms MarkObjects: 16.919200 ms  DeleteObjects: 1.481500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4545.807181 seconds.
+  path: Assets/RETINA-Dashboard/Networking/Attempt2/ClientSend.cs
+  artifactKey: Guid(65318b0da7eb18541910d84e49c64c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RETINA-Dashboard/Networking/Attempt2/ClientSend.cs using Guid(65318b0da7eb18541910d84e49c64c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6b673ff2b62422e11cfaa2d0311536') in 0.005420 seconds
+  Import took 0.011084 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004226 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.046 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2568 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.4 MB.
+System memory in use after: 113.6 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3150.
+Total: 17.398400 ms (FindLiveObjects: 0.440500 ms CreateObjectMapping: 0.186200 ms MarkObjects: 15.476500 ms  DeleteObjects: 1.293700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004164 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2562 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 116.3 MB.
-System memory in use after: 113.5 MB.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.117 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2568 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.4 MB.
+System memory in use after: 113.6 MB.
 
-Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 3147.
-Total: 17.370700 ms (FindLiveObjects: 0.374000 ms CreateObjectMapping: 0.132900 ms MarkObjects: 15.137900 ms  DeleteObjects: 1.724300 ms)
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3153.
+Total: 29.959100 ms (FindLiveObjects: 0.772500 ms CreateObjectMapping: 0.605000 ms MarkObjects: 27.289200 ms  DeleteObjects: 1.289000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004267 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.040 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2568 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 116.4 MB.
+System memory in use after: 113.6 MB.
+
+Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 3156.
+Total: 19.102800 ms (FindLiveObjects: 0.837800 ms CreateObjectMapping: 0.505300 ms MarkObjects: 16.366600 ms  DeleteObjects: 1.391900 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

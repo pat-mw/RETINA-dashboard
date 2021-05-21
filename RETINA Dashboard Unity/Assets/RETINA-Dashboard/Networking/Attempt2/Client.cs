@@ -17,8 +17,9 @@ namespace RetinaNetworking
 
         public string IP = "127.0.0.1";
         public int Port = 26950;
-        public int MyID;
+        public int myID;
         public TCP tcp;
+        public UDP udp;
 
         // packet handling + dictionary for storing packet handlers
         private delegate void PacketHandler(Packet _packet);
@@ -40,6 +41,7 @@ namespace RetinaNetworking
         private void Start()
         {
             tcp = new TCP();
+            udp = new UDP();
         }
 
         public void ConnectToServer()
@@ -47,8 +49,6 @@ namespace RetinaNetworking
             InitialiseClientData();
             tcp.Connect();
         }
-
-        #region TCP
 
         public class TCP
         {
@@ -232,13 +232,100 @@ namespace RetinaNetworking
             }
         }
 
-        #endregion
+        public class UDP
+        {
+            public UdpClient socket;
+            public IPEndPoint endPoint;
+
+            public UDP()
+            {
+                endPoint = new IPEndPoint(IPAddress.Parse(Instance.IP), Instance.Port);
+            }
+
+            public void Connect(int _localPort)
+            {
+                socket = new UdpClient(_localPort);
+
+                socket.Connect(endPoint);
+                socket.BeginReceive(ReceiveCallback, null);
+
+                // send initial packet to open ports
+                using (Packet _packet = new Packet())
+                {
+                    SendData(_packet);
+                }
+            }
+
+            public void SendData(Packet _packet)
+            {
+                try
+                {
+                    // add the clientID to the packet, will be used to identify from server
+                    _packet.InsertInt(Instance.myID);
+
+                    // send the packet
+                    if (socket != null)
+                    {
+                        socket.BeginSend(_packet.ToArray(), _packet.Length(), null, null);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Debug.Log($"Error sending packer by UDP: {ex.Message}");
+                }
+            }
+
+            private void ReceiveCallback(IAsyncResult _result)
+            {
+                try
+                {
+                    byte[] _data = socket.EndReceive(_result, ref endPoint);
+                    socket.BeginReceive(ReceiveCallback, null);
+
+                    if (_data.Length < 4)
+                    {
+                        // TODO: disconnect
+                        return;
+                    }
+
+                    HandleData(_data);
+                }
+                catch (Exception ex)
+                {
+                    Debug.Log($"Error on Receive Callback: {ex.Message} - disconnecting");
+                    //TODO: disconnect
+                }
+                
+            }
+
+            private void HandleData(byte[] _data)
+            {
+                using (Packet _packet = new Packet(_data))
+                {
+                    int _packetLength = _packet.ReadInt();
+
+                    // remove the first 4 bytes - representing the length of the backet
+                    _data = _packet.ReadBytes(_packetLength);
+                }
+
+                ThreadManager.ExecuteOnMainThread(() =>
+                {
+                    using(Packet _packet = new Packet(_data))
+                    {
+                        int _packetID = _packet.ReadInt();
+                        packetHandlers[_packetID](_packet);
+                    }
+                });
+            }
+        }
+
 
         private void InitialiseClientData()
         {
             packetHandlers = new Dictionary<int, PacketHandler>()
             {
-                {(int)ServerPackets.welcome, ClientHandle.Welcome }
+                {(int)ServerPackets.welcome, ClientHandle.Welcome },
+                {(int)ServerPackets.udpTest, ClientHandle.UDPTest }
             };
 
             Debug.Log("Initialised Packets!");

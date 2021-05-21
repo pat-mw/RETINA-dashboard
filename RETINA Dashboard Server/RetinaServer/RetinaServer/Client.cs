@@ -11,18 +11,19 @@ namespace RetinaServer
         // Size of the Data Buffer in Bytes (default 4MB)
         public static int dataBufferSize = 4096; 
 
-        public int id;
+        public int ID;
         public TCP tcp;
+        public UDP udp;
 
         // client constructor
         public Client(int _id)
         {
-            id = _id;
-            tcp = new TCP(id);
+            ID = _id;
+            tcp = new TCP(ID);
+            udp = new UDP(ID);
         }
 
-        #region TCP
-
+       
         public class TCP
         {
             public TcpClient socket;
@@ -201,6 +202,48 @@ namespace RetinaServer
             }
         }
 
-        #endregion
+        public class UDP
+        {
+            public IPEndPoint endPoint;
+
+            private int ID;
+
+            public UDP(int _id)
+            {
+                ID = _id;
+            }
+
+            public void Connect(IPEndPoint _endPoint)
+            {
+                endPoint = _endPoint;
+
+                // UDP Test
+                ServerSend.UPDTest(ID);
+            }
+
+            public void SendData(Packet _packet)
+            {
+                Server.SendUDPData(endPoint, _packet);
+            }
+
+
+            public void HandleData(Packet _packetData)
+            {
+                // remove the packet length from the start of the packer
+                int _packetLength = _packetData.ReadInt();
+                byte[] _packetBytes = _packetData.ReadBytes(_packetLength);
+
+                // then handle the rest of the packet according to the packet id and our handler dict
+                ThreadManager.ExecuteOnMainThread(() =>
+                {
+                    using (Packet _packet = new Packet(_packetBytes))
+                    {
+                        int _packetID = _packet.ReadInt();
+                        Server.packetHandlers[_packetID](ID, _packet);
+                    }
+                });
+
+            }
+        }
     }
 }

@@ -13,13 +13,21 @@ namespace RetinaServer
             int _clientIDCheck = _packet.ReadInt();
             string _username = _packet.ReadString();
 
-            Console.WriteLine($"{Server.Clients[_fromClient].tcp.socket.Client.RemoteEndPoint} connected succesfully | ID: {_fromClient} - username: {_username}");
+            Console.WriteLine($"{Server.clients[_fromClient].tcp.socket.Client.RemoteEndPoint} connected succesfully | ID: {_fromClient} - username: {_username}");
         
             // double check that client claimed the right id
             if(_fromClient != _clientIDCheck)
             {
                 Console.WriteLine($"Player \"{_username}\" (ID: {_fromClient}) has assumed the wrong Client ID ({_clientIDCheck})");
             }
+        }
+
+
+        public static void UDPTestReceived(int _fromClient, Packet _packet)
+        {
+            string _msg = _packet.ReadString();
+
+            Console.WriteLine($"Received UDP Packet | Client ID: {_fromClient} - Message: {_msg}");
         }
     }
 }

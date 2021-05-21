@@ -12,6 +12,13 @@ namespace RetinaNetworking
             Client.Instance.tcp.SendData(_packet);
         }
 
+
+        private static void SendUDPData(Packet _packet)
+        {
+            _packet.WriteLength();
+            Client.Instance.udp.SendData(_packet);
+        }
+
         #region Packets
 
         // example packet
@@ -20,10 +27,21 @@ namespace RetinaNetworking
         {
             using (Packet _packet = new Packet((int)ClientPackets.welcomeReceived))
             {
-                _packet.Write(Client.Instance.MyID);
+                _packet.Write(Client.Instance.myID);
                 _packet.Write(UIManager.Instance.usernameField.text);
 
                 SendTCPData(_packet);
+            }
+        }
+
+        // responds to the UDP test
+        public static void UDPTestReceived()
+        {
+            using (Packet _packet = new Packet((int)ClientPackets.udpTestReceived))
+            {
+                _packet.Write("I received your UDP Packet.");
+
+                SendUDPData(_packet);
             }
         }
 

@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Net;
 
 namespace RetinaNetworking
 {
@@ -9,9 +10,22 @@ namespace RetinaNetworking
             string _msg = _packet.ReadString();
             int _myID = _packet.ReadInt();
 
-            Debug.Log($"Message from the server: {_msg}");
-            Client.Instance.MyID = _myID;
+            Debug.Log($"Received TCP Packet from Server | Message: {_msg}");
+            Client.Instance.myID = _myID;
             ClientSend.WelcomeReceived();
+
+            // open the udp connection using the same port as the tcp connection
+            Client.Instance.udp.Connect(((IPEndPoint)Client.Instance.tcp.socket.Client.LocalEndPoint).Port);
         }
+
+
+        public static void UDPTest(Packet _packet)
+        {
+            string _msg = _packet.ReadString();
+
+            Debug.Log($"Received UDP Packet from Server | Message: {_msg}");
+            ClientSend.UDPTestReceived();
+        }
+
     }
 }
