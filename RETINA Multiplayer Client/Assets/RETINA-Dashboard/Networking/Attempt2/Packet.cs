@@ -9,14 +9,19 @@ namespace RetinaNetworking
     public enum ServerPackets
     {
         welcome = 1,
-        udpTest
+        udpTest,
+        exampleDataBytesReceived,
+        exampleDataStringReceived,
+        spawnPlayer
     }
 
     /// <summary>Sent from client to server.</summary>
     public enum ClientPackets
     {
         welcomeReceived = 1,
-        udpTestReceived
+        udpTestReceived,
+        exampleDataBytes,
+        exampleDataString
     }
 
     public class Packet : IDisposable

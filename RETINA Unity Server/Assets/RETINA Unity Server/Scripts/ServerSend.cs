@@ -102,6 +102,37 @@ namespace RetinaNetworking.Server
             }
         }
 
+        public static void ExampleDataBytesReceived(int _toClient)
+        {
+            using (Packet _packet = new Packet((int)ServerPackets.exampleDataBytesReceived))
+            {
+                _packet.Write("Received example data bytes!");
+
+                SendTCPData(_toClient, _packet);
+            }
+        }
+
+        public static void ExampleDataStringReceived(int _toClient)
+        {
+            using (Packet _packet = new Packet((int)ServerPackets.exampleDataStringReceived))
+            {
+                _packet.Write("Received example data string!");
+
+                SendTCPData(_toClient, _packet);
+            }
+        }
+
+        public static void SpawnPlayer(int _toClient, PlayerPanel _player)
+        {
+            using (Packet _packet = new Packet((int)ServerPackets.spawnPlayer))
+            {
+                _packet.Write(_player.ID);
+                _packet.Write(_player.username);
+
+                // other relevant info sent here
+            }
+        }
+
         #endregion
 
     }

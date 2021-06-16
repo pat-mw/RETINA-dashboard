@@ -135,14 +135,15 @@ namespace RetinaNetworking.Server
         {
             for (int i = 1; i <= MaxPlayers; i++)
             {
-                clients.Add(i, new Client(i));
+                clients.Add(i, new Client(i, "defaultUsername", "defaultJWT", "defaultToken"));
             }
 
             // initialise the packet handler dict
             packetHandlers = new Dictionary<int, PacketHandler>()
             {
                 {(int)ClientPackets.welcomeReceived, ServerHandle.WelcomeReceived },
-                {(int)ClientPackets.udpTestReceived, ServerHandle.UDPTestReceived }
+                {(int)ClientPackets.udpTestReceived, ServerHandle.UDPTestReceived },
+                {(int)ClientPackets.exampleDataBytes, ServerHandle.ExampleDataBytes }
             };
 
             Wenzil.Console.Console.Log("Initialised packets...");

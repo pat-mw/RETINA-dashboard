@@ -4,20 +4,25 @@ using System.Text;
 using UnityEngine;
 using Wenzil.Console;
 
-namespace RetinaNetworking.Server
+namespace RetinaNetworking
 {
     /// <summary>Sent from server to client.</summary>
     public enum ServerPackets
-    {
+    { 
         welcome = 1,
-        udpTest
+        udpTest,
+        exampleDataBytesReceived,
+        exampleDataStringReceived, 
+        spawnPlayer
     }
 
     /// <summary>Sent from client to server.</summary>
     public enum ClientPackets
     {
         welcomeReceived = 1,
-        udpTestReceived
+        udpTestReceived,
+        exampleDataBytes,
+        exampleDataString
     }
 
     public class Packet : IDisposable

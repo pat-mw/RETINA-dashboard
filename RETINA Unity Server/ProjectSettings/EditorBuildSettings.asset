@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
-  - enabled: 1
-    path: Assets/RETINA Unity Server/Scenes/ServerScene.unity
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/RETINA Unity Server/Scenes/ServerDesktopConsole.unity
     guid: b8ff59b280f5fc24eb630ecd2d444d8c
+  - enabled: 0
+    path: Assets/RETINA Unity Server/Scenes/ServerMobileConsole.unity
+    guid: 5c487e800f64bbc47b2f7c301d84dcfd
+  - enabled: 1
+    path: Assets/RETINA Unity Server/Scenes/ServerDesktopUI.unity
+    guid: eca46b5a961c6e9408dd60db703cf23c
   m_configObjects: {}

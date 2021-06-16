@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
-using RetinaNetworking;
+using RetinaNetworking.Client;
 
 public class UIManager : MonoBehaviour
 {

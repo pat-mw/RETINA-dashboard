@@ -1,0 +1,28 @@
+{
+    "jwt": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NjksImlhdCI6MTYyMzQyNTcxOCwiZXhwIjoxNjI2MDE3NzE4fQ.LU0b5yoYTfLKwIwqbjkKS7Kcf-Ahgx6c5UPEqDNJTE4",
+    "user": {
+        "id": 69,
+        "username": "thePabloid",
+        "email": "pablo@biggerst.com",
+        "provider": "local",
+        "confirmed": true,
+        "blocked": null, 	** bool
+        "role": {
+            "id": 2,
+            "name": "Authenticated",
+            "description": "Default role given to authenticated user.",
+            "type": "authenticated"
+        },
+        "policyAgreement": null, ** bool
+        "language": "Martian",
+        "completedSessions": null, ** JSON type
+        "hasTimer": null, 	** bool
+        "gender": "fluid",
+        "age": 69,
+        "HasCam": true,
+        "created_at": "2021-06-11T15:35:18.410Z",
+        "updated_at": "2021-06-11T15:35:18.446Z",
+        "hasGyro": true,
+        "deviceId": null	** int
+    }
+}

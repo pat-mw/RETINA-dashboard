@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Net;
 
-namespace RetinaNetworking
+namespace RetinaNetworking.Client
 {
     public class ClientHandle : MonoBehaviour
     {
@@ -27,5 +27,12 @@ namespace RetinaNetworking
             ClientSend.UDPTestReceived();
         }
 
+
+        public static void ExampleDataBytesReceived(Packet _packet)
+        {
+            string _msg = _packet.ReadString();
+
+            Debug.Log($"Received TCP Package from Server | Message: {_msg}");
+        }
     }
 }

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace RetinaNetworking
+namespace RetinaNetworking.Client
 {
     public class ClientSend : MonoBehaviour
     {
@@ -42,6 +42,29 @@ namespace RetinaNetworking
                 _packet.Write("I received your UDP Packet.");
 
                 SendUDPData(_packet);
+            }
+        }
+
+        // sends example data packet (JSON byte array)
+        public static void SendExampleData(byte[] data)
+        {
+            using (Packet _packet = new Packet((int)ClientPackets.exampleDataBytes))
+            {
+                _packet.Write(data);
+
+                SendTCPData(_packet);
+            }
+        }
+
+
+        // sends example data packet (JSON string)
+        public static void SendExampleData(string data)
+        {
+            using (Packet _packet = new Packet((int)ClientPackets.exampleDataString))
+            {
+                _packet.Write(data);
+
+                SendTCPData(_packet);
             }
         }
 

@@ -6,7 +6,7 @@ using System.Net.Sockets;
 using System;
 
 
-namespace RetinaNetworking
+namespace RetinaNetworking.Client
 {
     public class Client : MonoBehaviour
     {
@@ -77,8 +77,6 @@ namespace RetinaNetworking
                 receiveBuffer = new byte[dataBufferSize];
 
                 socket.BeginConnect(Instance.IP, Instance.Port, ConnectCallback, socket);
-
-
             }
 
             private void ConnectCallback(IAsyncResult _result)
@@ -306,7 +304,7 @@ namespace RetinaNetworking
 
                     HandleData(_data);
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     //Debug.Log($"UDP Socket has been closed - Disconnecting");
                     Disconnect();
@@ -348,7 +346,8 @@ namespace RetinaNetworking
             packetHandlers = new Dictionary<int, PacketHandler>()
             {
                 {(int)ServerPackets.welcome, ClientHandle.Welcome },
-                {(int)ServerPackets.udpTest, ClientHandle.UDPTest }
+                {(int)ServerPackets.udpTest, ClientHandle.UDPTest },
+                {(int)ServerPackets.exampleDataBytesReceived, ClientHandle.ExampleDataBytesReceived }
             };
 
             Debug.Log("Initialised Packets!");

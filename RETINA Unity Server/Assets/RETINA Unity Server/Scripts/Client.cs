@@ -6,19 +6,25 @@ using Wenzil.Console;
 
 namespace RetinaNetworking.Server
 {
-    class Client
+    public class Client
     {
         // Size of the Data Buffer in Bytes (default 4MB)
         public static int dataBufferSize = 4096;
 
         public int ID;
+        public string username;
+        public string JWT;
+        public string sessionToken;
         public TCP tcp;
         public UDP udp;
 
         // client constructor
-        public Client(int _id)
+        public Client(int _id, string _username, string _JWT, string _sessionToken)
         {
             ID = _id;
+            username = _username;
+            JWT = _JWT;
+            sessionToken = _sessionToken;
             tcp = new TCP(ID);
             udp = new UDP(ID);
         }
@@ -267,9 +273,12 @@ namespace RetinaNetworking.Server
         {
             Wenzil.Console.Console.Log($"{tcp.socket.Client.RemoteEndPoint} has disconnected.");
 
-            //player = null;
+            ClientDetailsUI.Instance.RemoveClientPanel(this);
+
             tcp.Disconnect();
             udp.Disconnect();
+
+            username = null;
         }
     }
 }
